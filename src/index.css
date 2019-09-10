@@ -31,6 +31,10 @@ img {
   border: 1px solid #aaa;
 }
 
+h2 {
+  text-transform: capitalize;
+}
+
 
 /* Style for pagination  */
 .pagination {
@@ -44,24 +48,19 @@ img {
   text-decoration: none;
 }
 
-.pagination button.active {
-  background-color: #4CAF50;
-  color: white;
-  border-radius: 5px;
-}
-
 .pagination button:hover:not(.active) {
-  background-color: #ddd;
-  border-radius: 5px;
+  background-color: #66ffb3;
 }
 
-.pagination button:focus {outline:0;}
+.pagination button:focus {
+  outline: none;
+}
 
 
 /* Style for search box */
 .search {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 45px;
+  margin-left: 40px;
   margin-top: 20px;
 }
 
